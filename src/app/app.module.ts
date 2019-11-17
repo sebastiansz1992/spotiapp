@@ -17,6 +17,7 @@ import { LoadingComponent } from './components/shared/loading/loading.component'
 
 //Importar Pipes
 import { NoimagePipe } from './pipes/noimage.pipe';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { NoimagePipe } from './pipes/noimage.pipe';
     NavbarComponent,
     NoimagePipe,
     TarjetasComponent,
-    LoadingComponent
+    LoadingComponent,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,
